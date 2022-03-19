@@ -2,9 +2,9 @@
 @Library('my-shared-library@master') _
 
 Map configMap = [
-	application:"lib",
+	application:"lib"
 ]
 
 echo "invoke pipelineApi..."
-pipelineApi.execute(configMap)
+pipelineApi(configMap)
 echo "FINISHED"
