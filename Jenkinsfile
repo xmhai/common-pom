@@ -1,5 +1,5 @@
 #!groovy
-@Library('my-shared-library') _
+@Library('my-shared-library@master') _
 
 Map configMap = [
 	application:"lib",
